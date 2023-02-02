@@ -29,6 +29,7 @@ nav {
 }
 
 a:link {
+    color: #e6e6e6;
     text-decoration: none;
 }
 
@@ -120,6 +121,12 @@ h3 {
         border-color: #646464;
         border-style: solid;
         box-shadow: 5px 5px 9px #646464;
+        width: 20vw;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
         width: 20vw;
     }
 
