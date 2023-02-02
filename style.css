@@ -77,6 +77,10 @@ main {
     width: 100;
 }
 
+#github-link {
+    color: #000000;
+}
+
 section {
     background-color: #e6e6e6;    
 }
