@@ -28,6 +28,20 @@ nav {
     width: 30vw;
 }
 
+aside {
+    color: #646464;
+    font-size: small;
+    height: 20vh;
+    text-align: center;
+    text-orientation: mixed;   
+    writing-mode: vertical-rl;
+}
+
+#about-me-cont {
+    height: 22vh;
+    width: 45vw;
+}
+
 a:link {
     color: #e6e6e6;
     text-decoration: none;
@@ -135,8 +149,29 @@ h3 {
     }
 
     #image-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
         height: auto;
         width: 20vw;
+    }
+
+    aside {
+
+        color: #646464;
+        font-size: x-large;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        height: auto;
+        width: 40vw;
+        text-align: center;
+        writing-mode: horizontal-tb;
+    }
+
+    #about-me-cont {
+        display: flex; 
+        flex-direction: row-reverse;
+        justify-content: flex-start;  
+        width: 100%;
     }
 
 }
